@@ -2,7 +2,7 @@
 
 ## A Simple Tip for Previewing Markdown in Typora from Vim
 
-<img src="images/vim_typora_preview_title.png" alt="Vim Typora Preview" width="992">
+<img src="media/vim_typora_preview_title.png" alt="Vim Typora Preview" width="992">
 
 Easily preview Markdown files you're editing in Vim on macOS using the familiar Typora interface.
 
@@ -33,7 +33,7 @@ To apply the changes, restart Vim or run `:source ~/.vimrc`.
 
 ### Usage
 
-<img src="images/vim_typora_preview_demo.mp4" alt="Vim Typora Preview" width="960">
+https://github.com/user-attachments/assets/88cf4223-9d1e-452b-81a1-c5e3520b365a
 
 1. Open a Markdown file in Vim.
 2. Enter `:Mdp` in Vim's command-line mode.
