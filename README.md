@@ -66,6 +66,6 @@ CursorTint is released under the MIT License.
 
 Copyright © 2026 fix
 
-## Project
+## Repository
 
 GitHub: https://github.com/fixdot/vim-typora-preview
