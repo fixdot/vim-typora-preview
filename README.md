@@ -62,7 +62,7 @@ This command uses the macOS `open -a` command to pass the current file in Vim to
 
 ## License
 
-CursorTint is released under the MIT License.
+Vim Typora Preview is released under the MIT License.
 
 Copyright © 2026 fix
 
