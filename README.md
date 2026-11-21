@@ -1,26 +1,26 @@
 # Vim Typora Preview
 
-## A Simple Tip for Previewing Markdown in Typora from Vim
+**A Simple Tip for Previewing Markdown in Typora from Vim**
 
 <img src="media/vim_typora_preview_title.png" alt="Vim Typora Preview" width="992">
 
-### Overview
+## Overview
 Easily preview Markdown files you're editing in Vim on macOS using the familiar Typora interface. No plugins or complicated setup required. Just add one line to your `.vimrc`.
 
-### Features
+## Features
 
 - **Simple** — Just one line in your `.vimrc`
 - **No plugins required** — Uses the built-in macOS `open` command
 - **No auto-save** — File saving remains under your control in Vim
 - **Customizable** — Can be adapted to other apps that support Markdown
 
-### Tested Environment
+## Tested Environment
 
 - macOS 27 Golden Gate
 - VIM - Vi IMproved 9.1
 - Typora Version 1.0
 
-### Installation
+## Installation
 
 Add the following line to your `~/.vimrc`:
 
@@ -30,7 +30,7 @@ command! Mdp silent call system('open -a "Typora" ' . shellescape(expand('%:p'))
 
 To apply the changes, restart Vim or run `:source ~/.vimrc`.
 
-### Usage
+## Usage
 
 https://github.com/user-attachments/assets/88cf4223-9d1e-452b-81a1-c5e3520b365a
 
@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/88cf4223-9d1e-452b-81a1-c5e3520b365a
 
 **Note:** Unsaved changes in Vim will not appear in Typora. Save the file in Vim when needed.
 
-### Customization
+## Customization
 
 To use another app instead of Typora, replace `"Typora"` with the name of your preferred app.
 
@@ -48,7 +48,7 @@ command! **Mdp** silent call system('open -a "**Typora**" ' . shellescape(expand
 
 You can also change the command name `Mdp`. However, Vim user-defined commands must begin with an uppercase letter.
 
-### How It Works
+## How It Works
 
 This command uses the macOS `open -a` command to pass the current file in Vim to the specified application.
 
