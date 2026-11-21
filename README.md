@@ -4,9 +4,8 @@
 
 <img src="media/vim_typora_preview_title.png" alt="Vim Typora Preview" width="992">
 
-Easily preview Markdown files you're editing in Vim on macOS using the familiar Typora interface.
-
-No plugins or complicated setup required. Just add one line to your `.vimrc`.
+### Overview
+Easily preview Markdown files you're editing in Vim on macOS using the familiar Typora interface. No plugins or complicated setup required. Just add one line to your `.vimrc`.
 
 ### Features
 
